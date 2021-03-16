@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web"> <!-- Was: <Project Sdk="Microsoft.NET.Sdk.Worker">-->
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-Demo.WorkerServiceWeb-32C778D7-C89E-498E-8874-6DC9A42A37E1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+</Project>
